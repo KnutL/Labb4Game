@@ -1,0 +1,6 @@
+C:\Users\Christoffer\Source\Repos\Labb4Game\Labb4Game\bin\Debug\Labb4Game.exe.config
+C:\Users\Christoffer\Source\Repos\Labb4Game\Labb4Game\bin\Debug\Labb4Game.exe
+C:\Users\Christoffer\Source\Repos\Labb4Game\Labb4Game\bin\Debug\Labb4Game.pdb
+C:\Users\Christoffer\Source\Repos\Labb4Game\Labb4Game\obj\Debug\Labb4Game.csproj.CoreCompileInputs.cache
+C:\Users\Christoffer\Source\Repos\Labb4Game\Labb4Game\obj\Debug\Labb4Game.exe
+C:\Users\Christoffer\Source\Repos\Labb4Game\Labb4Game\obj\Debug\Labb4Game.pdb
