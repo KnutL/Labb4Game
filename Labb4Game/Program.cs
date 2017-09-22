@@ -23,10 +23,10 @@ namespace Labb4Game
             bool gameRunning = true;
             while (gameRunning)
             {
-
+                Map map = new Map();
+                Console.WriteLine(map);
 
             }
-
 
             Console.ReadLine();
         }
