@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Door
+    public abstract class Floor
     {
         
+    }
+    public class Door : Floor
+    {
+
+    }
+    public class Room : Floor
+    {
+
+    }
+    public class Wall : Floor
+    {
+
     }
 }

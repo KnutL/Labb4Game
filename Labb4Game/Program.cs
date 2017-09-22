@@ -9,7 +9,6 @@ namespace Labb4Game
     //Alla olika sorters rum
     public enum TypeOfRooms
     {
-        Wall,
         Exit,
         Monster
     }
@@ -18,16 +17,15 @@ namespace Labb4Game
     {
         static void Main(string[] args)
         {
+            
             List<String> Inventory = new List<String>();
 
+            bool gameRunning = true;
+            while (gameRunning)
+            {
 
-            Console.WriteLine("Hello world!");
 
-            Console.WriteLine("##############");
-            Console.WriteLine("#U.#n...M#@.n#");
-            Console.WriteLine("##D###D#MM#.M#");
-            Console.WriteLine("#M...........#");
-            Console.WriteLine("##############");
+            }
 
 
             Console.ReadLine();
