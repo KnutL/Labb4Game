@@ -14,4 +14,11 @@ namespace Labb4Game
             Console.ReadLine();
         }
     }
+/*
+    ##############   n: rum med nyckel,  U: utgång (exit),  D: dörr
+    #U.#n...M#@.n#   M: rum med monster
+    ##D###D#MM#.M#   @: spelarens position
+    #M...........#
+    ##############
+*/
 }
