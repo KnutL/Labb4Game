@@ -17,25 +17,31 @@ namespace Labb4Game
     {
         static void Main(string[] args)
         {
-            
             List<String> Inventory = new List<String>();
 
+            //object playerLocation = Maps.
             bool gameRunning = true;
             while (gameRunning)
             {
+                Player player = new Player();
+                Player.PrintInventory(Inventory);
 
 
+                Inventory.Add("Key");
+                Player.PrintInventory(Inventory);
+
+                gameRunning = false;
             }
 
 
             Console.ReadLine();
         }
     }
-/*
+    /*
     ##############   n: rum med nyckel,  U: utgång (exit),  D: dörr
     #U.#n...M#@.n#   M: rum med monster
     ##D###D#MM#.M#   @: spelarens position
     #M...........#
     ##############
-*/
+    */
 }
