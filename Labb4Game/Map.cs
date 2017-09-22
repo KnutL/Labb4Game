@@ -1,41 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 
 namespace Labb4Game
 {
-    public class Map
+    class Map
     {
         public Map()
         {
-            int[,] Map = new int[6, 9];
-            for(int y=0; y < 6; y++)
+            int[,] table = new int[5, 6];
+            for (int i = 0; i < 5; i++)
             {
-                for(int x = 0; x < 9; x++)
+                for (int j = 0; j < 6; j++)
                 {
-                    Map[y, x] = x * y;
-                    Console.WriteLine("-");
+                    table[i, j] = i * j;
                 }
-                Console.WriteLine("#");
             }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    Console.Write(table[i, j]);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
         }
     }
-    public class Door : Map
-    {
-
-    }
-    public class Room : Map
-    {
-
-    }
-    public class Wall : Map
-    {
-
-    }
 }
+
