@@ -6,32 +6,21 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
+    //Alla olika sorters rum
     public enum TypeOfRooms
     {
         Wall,
-        Door,
         Exit,
         Monster
-    }
-    class Player
-    {
-        public string Name { get; set; } =
-            "Player";
-    }
-    public class Counter
-    {
-        private int turn;
-
-        public void Increase()
-        {
-            turn++;
-        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            List<String> Inventory = new List<String>();
+
+
             Console.WriteLine("Hello world!");
 
             Console.WriteLine("##############");
