@@ -6,11 +6,41 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
+    public enum TypeOfRooms
+    {
+        Wall,
+        Door,
+        Exit,
+        Monster
+    }
+    class Player
+    {
+        public string Name { get; set; } =
+            "Player";
+    }
+    public class Counter
+    {
+        private int turn;
+
+        public void Increase()
+        {
+            turn++;
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
+
+            Console.WriteLine("##############");
+            Console.WriteLine("#U.#n...M#@.n#");
+            Console.WriteLine("##D###D#MM#.M#");
+            Console.WriteLine("#M...........#");
+            Console.WriteLine("##############");
+
+
             Console.ReadLine();
         }
     }
