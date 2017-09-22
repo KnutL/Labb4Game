@@ -20,12 +20,13 @@ namespace Labb4Game
             
             List<String> Inventory = new List<String>();
 
+            string input = Console.ReadLine();
+
             bool gameRunning = true;
             while (gameRunning)
             {
                 Map map = new Map();
                 Console.WriteLine(map);
-
             }
 
             Console.ReadLine();

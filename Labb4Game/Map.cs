@@ -11,19 +11,12 @@ namespace Labb4Game
     {
         public Map()
         {
-            int[,] table = new int[5,6];
+            int[,] table = new int[5, 6];
             for (int i = 0; i < 5; i++)
             {
                 for (int j = 0; j < 6; j++)
                 {
-                    if ((i + j) % 2 == 0)
-                    {
-                        table[i, j] = i*j;
-                    }
-                    else
-                    {
-                        table[i, j] = i*j;
-                    }
+                    table[i, j] = i * j;
                 }
             }
             for (int i = 0; i < 5; i++)
@@ -38,3 +31,4 @@ namespace Labb4Game
         }
     }
 }
+
