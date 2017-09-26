@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Player
+    class Player : Map
     {
         private string Name { get; set; } = "Player";
+        char PlayerIcon = '@';
     }
 }

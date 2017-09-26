@@ -9,19 +9,22 @@ namespace Labb4Game
 {
     class Map
     {
-        public string[,] table = new string[6, 14];
+        public const int RAD = 10;
+        public const int KOLUMN = 19;
+
+        public string[,] table = new string[RAD, KOLUMN];
         public Map()
         {
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < RAD; i++)
             {
-                for (int j = 0; j < 14; j++)
+                for (int j = 0; j < KOLUMN; j++)
                 {
                     table[i, j] = ".";
                 }
             }
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < RAD; i++)
             {
-                for (int j = 0; j < 14; j++)
+                for (int j = 0; j < KOLUMN; j++)
                 {
                     Console.Write(table[i, j]);
                 }
