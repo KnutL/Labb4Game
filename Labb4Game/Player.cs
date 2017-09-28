@@ -9,6 +9,9 @@ namespace Labb4Game
     class Player : Map
     {
         private string Name { get; set; } = "Player";
-        char PlayerIcon = '@';
+
+        //För att få spelare att röra på sig
+        
+        
     }
 }
