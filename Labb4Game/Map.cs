@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Map
+    abstract class Map
     {
         public const int RAD = 10;
         public const int KOLUMN = 19;
