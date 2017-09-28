@@ -7,29 +7,31 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    public class Map
+    class Map
     {
+        public const int RAD = 10;
+        public const int KOLUMN = 19;
+
+        public string[,] table = new string[RAD, KOLUMN];
         public Map()
         {
-            int[,] Map = new int[6, 9];
-            for(int y=0; y < 6; y++)
+            for (int i = 0; i < RAD; i++)
             {
-                for(int x = 0; x < 9; x++)
+                for (int j = 0; j < KOLUMN; j++)
                 {
-                    Map[y, x] = x * y;
-                    Console.WriteLine("-");
+                    table[i, j] = ".";
                 }
-                Console.WriteLine("#");
             }
+            for (int i = 0; i < RAD; i++)
+            {
+                for (int j = 0; j < KOLUMN; j++)
+                {
+                    Console.Write(table[i, j]);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
         }
-    }
-    public class Door : Map
-    {
-
-    }
-    public class Room : Map
-    {
-
     }
 }
 
