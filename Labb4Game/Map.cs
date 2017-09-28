@@ -19,9 +19,8 @@ namespace Labb4Game
             {
                 for (int j = 0; j < 6; j++)
                 {
-                    table[i, j] = i * j;
+                    table[i, j] = ".";
                 }
-                Console.WriteLine("#");
             }
             for (int i = 0; i < RAD; i++)
             {
@@ -33,6 +32,14 @@ namespace Labb4Game
             }
             Console.ReadLine();
         }
+    }
+    public enum Rooms
+    {
+        KeyRoom,
+        ExitRoom,
+        MonsterRoom,
+        DoorRoom,
+        EmptyRoom
     }
 }
 

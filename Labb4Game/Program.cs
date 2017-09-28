@@ -30,7 +30,7 @@ namespace Labb4Game
                 Console.WriteLine(wall);
 
                 Console.ReadKey();
-                gameRunning = false;
+                
             }
 
             Console.ReadLine();
