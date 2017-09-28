@@ -11,8 +11,18 @@ namespace Labb4Game
         public List<String> Inventory = new List<String>();
         private string Name { get; set; } = "Player";
 
-        //För att få spelare att röra på sig
-        
-        
+        public char PlayerIcon = '@';
+
+        public static Player p1 { get; set; }
+        private void button1_click(object sender, EventArgs e)
+        {
+            p1 = new Player();
+        }
+
+        private int turn;
+        public void Increase()
+        {
+            turn++;
+        }
     }
 }
