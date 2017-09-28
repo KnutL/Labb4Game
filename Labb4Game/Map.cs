@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Map
+    public class Map
     {
         public const int RAD = 10;
         public const int KOLUMN = 19;
@@ -15,16 +15,18 @@ namespace Labb4Game
         public string[,] table = new string[RAD, KOLUMN];
         public Map()
         {
-            for (int i = 0; i < RAD; i++)
+            int[,] table = new int[5, 6];
+            for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < KOLUMN; j++)
+                for (int j = 0; j < 6; j++)
                 {
-                    table[i, j] = ".";
+                    table[i, j] = i * j;
                 }
+                Console.WriteLine("#");
             }
-            for (int i = 0; i < RAD; i++)
+            for (int i = 0; i < 5; i++)
             {
-                for (int j = 0; j < KOLUMN; j++)
+                for (int j = 0; j < 6; j++)
                 {
                     Console.Write(table[i, j]);
                 }
