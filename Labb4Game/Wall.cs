@@ -21,7 +21,7 @@ namespace Labb4Game
                 }
             }
 
-            //Sakapr ett rum
+            /*Sakapr ett rum
             for(int i = 1; i < RAD; i++)
             {
                 for(int j = 6; j < KOLUMN; j++)
@@ -29,7 +29,7 @@ namespace Labb4Game
                     table[i, j] = "#";
                 }
             }
-
+            */
             //Skriver ut
             for (int i = 0; i < RAD; i++)
             {

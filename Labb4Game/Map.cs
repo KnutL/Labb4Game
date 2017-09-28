@@ -15,6 +15,7 @@ namespace Labb4Game
         public string[,] table = new string[RAD, KOLUMN];
         public Map()
         {
+            //Skapar kartan
             for (int i = 0; i < RAD; i++)
             {
                 for (int j = 0; j < KOLUMN; j++)
@@ -22,6 +23,8 @@ namespace Labb4Game
                     table[i, j] = ".";
                 }
             }
+
+            //Ritar ut kartan
             for (int i = 0; i < RAD; i++)
             {
                 for (int j = 0; j < KOLUMN; j++)
