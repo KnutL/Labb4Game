@@ -19,21 +19,17 @@ namespace Labb4Game
         {
             List<String> Inventory = new List<String>();
 
-            Map map = new Map();
+            
             Wall wall = new Wall();
 
             bool gameRunning = true;
             while (gameRunning)
             {
-                
-                Console.WriteLine(map);
                 Console.WriteLine(wall);
 
                 Console.ReadKey();
                 
             }
-
-            Console.ReadLine();
         }
     }
 /*

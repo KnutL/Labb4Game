@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Counter
+    class Counter : Player
     {
         private int turn;
 
-        public void Increase()
+        public void NumberOfMoves()
         {
-            turn++;
+            
         }
     }
 }
