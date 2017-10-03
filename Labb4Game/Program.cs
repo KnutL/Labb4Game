@@ -25,12 +25,10 @@ namespace Labb4Game
             bool gameRunning = true;
             while (gameRunning)
             {
-
                 Console.WriteLine(wall);
-                
+
                 Console.ReadKey();
                 gameRunning = false;
-                
             }
         }
     }
