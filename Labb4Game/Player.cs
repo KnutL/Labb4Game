@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Player : Map
+    class Player
     {
         public List<String> Inventory = new List<String>();
-        public string Name { get; set; } = "Player";
+       
+
+        private string Name { get; set; } = "Player";
+
+        public char PlayerIcon = '@';
 
         public static Player p1 { get; set; }
         private void button1_click(object sender, EventArgs e)
@@ -17,15 +21,10 @@ namespace Labb4Game
             p1 = new Player();
         }
 
-        public int turn = 0;
-        public int testnummer = 1;
-        public void Increase(int testnummer)
+        private int turn;
+        public void Increase()
         {
-            this.turn = turn + 1;
+            turn++;
         }
-
-        //För att få spelare att röra på sig
-        
-        
     }
 }

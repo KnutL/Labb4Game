@@ -23,17 +23,6 @@ namespace Labb4Game
                     table[i, j] = ".";
                 }
             }
-
-            //Ritar ut kartan
-            for (int i = 0; i < RAD; i++)
-            {
-                for (int j = 0; j < KOLUMN; j++)
-                {
-                    Console.Write(table[i, j]);
-                }
-                Console.WriteLine();
-            }
-            Console.ReadLine();
         }
     }
     public enum Rooms

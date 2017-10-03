@@ -16,17 +16,19 @@ namespace Labb4Game
             {
                 for(int j = 0; j < KOLUMN; j++)
                 {
-                    if (j == 0 || j == KOLUMN-1 || i == 0 || i == RAD-1)
+                    if (j == 0 || j == KOLUMN-1 || i == 0 || i == RAD-1
+                        )
                         table[i, j] = "#";
                 }
             }
 
             //Sakapr ett rum
-            for(int i = 1; i < RAD; i++)
+            for(int i = 1; i < 6; i++)
             {
-                for(int j = 6; j < KOLUMN; j++)
+                for(int j = 8; j < KOLUMN; j++)
                 {
-                    table[i, j] = "#";
+                    if (i == 5 || j <= 8)
+                        table[i, j] = "#";
                 }
             }
             

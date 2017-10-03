@@ -16,10 +16,7 @@ namespace Labb4Game
     class Program
     {
         static void Main(string[] args)
-        {
-            List<String> Inventory = new List<String>();
-
-            
+        {            
             Wall wall = new Wall();
 
             bool gameRunning = true;
