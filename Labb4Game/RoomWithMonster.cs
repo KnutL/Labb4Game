@@ -10,10 +10,10 @@ namespace Labb4Game
     {
         public static void MonsterCounter()
         {
-            p1.Increase();
-            p1.Increase();
-            p1.Increase();
-            p1.Increase();
+            p1.Increase(1);
+            p1.Increase(1);
+            p1.Increase(1);
+            p1.Increase(1);
         }
     }
 }
