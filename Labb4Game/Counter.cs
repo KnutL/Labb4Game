@@ -12,7 +12,7 @@ namespace Labb4Game
 
         public void NumberOfMoves()
         {
-            
+
         }
     }
 }

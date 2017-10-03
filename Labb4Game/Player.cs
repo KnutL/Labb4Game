@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Player : Map
+    class Player
     {
         public List<String> Inventory = new List<String>();
+       
+
         private string Name { get; set; } = "Player";
 
         public char PlayerIcon = '@';

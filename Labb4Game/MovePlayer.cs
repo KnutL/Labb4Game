@@ -22,7 +22,6 @@ namespace Labb4Game
                 PlayerRow++;
             else if (key.Key == ConsoleKey.D)
                 PlayerColumn++;
-
         }
     }
 }
