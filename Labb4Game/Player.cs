@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Labb4Game
 {
-    class Player
+    class Player : Map
     {
+        
+
         public List<String> Inventory = new List<String>();
        
 

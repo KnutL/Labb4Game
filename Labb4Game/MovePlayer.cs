@@ -8,20 +8,23 @@ namespace Labb4Game
 {
     class MovePlayer : Player
     {
-        private int PlayerRow = 5, PlayerColumn = 5;
-
-        public MovePlayer()
+        public void movePlayer()
         {
-            var key = Console.ReadKey();
+            var input = Console.ReadKey();
 
-            if (key.Key == ConsoleKey.W)
-                PlayerRow--;
-            else if (key.Key == ConsoleKey.A)
-                PlayerColumn--;
-            else if (key.Key == ConsoleKey.S)
-                PlayerRow++;
-            else if (key.Key == ConsoleKey.D)
-                PlayerColumn++;
+            switch (input.Key)
+            {
+                case ConsoleKey.W:
+                    break;
+                case ConsoleKey.A:
+                    break;
+                case ConsoleKey.S:
+                    break;
+                case ConsoleKey.D:
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
