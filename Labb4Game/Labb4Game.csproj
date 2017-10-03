@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Counter.cs" />
     <Compile Include="Exit.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="MovePlayer.cs" />
